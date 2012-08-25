@@ -3,3 +3,6 @@
 
 # Except for
 !.gitignore
+!.vimrc
+!.rtorrent.rc
+!.gitconfig
