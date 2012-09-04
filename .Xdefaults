@@ -17,44 +17,44 @@ urxvt*font:                      xft:Terminus:pixelsize=12
 URxvt*cursorBlink:               true
 urxvt*perl-ext-common:           default,clipboard,tabbed,matcher
 urxvt.scrollBar:                 off
-urxvt.tabbed.tabbar-fg:          7
-urxvt.tabbed.tabbar-bg:          -1
-urxvt.tabbed.tab-fg:             4
-urxvt.tabbed.tab-bg:             -1
+URxvt.tabbed.tabbar-fg:          10
+URxvt.tabbed.tabbar-bg:          0
+URxvt.tabbed.tab-fg:             12
+URxvt.tabbed.tab-bg:             0
 urxvt*termName:                  rxvt-256color
 urxvt.urlLauncher:               /opt/google/chrome/chrome
 urxvt.matcher.button:            1
 urxvt.urgentOnBell:              true
 urxvt*transparent:               true
-urxvt*shading:                   30
+urxvt*shading:                   15
 
 
 ! Colors
 
-urxvt*background: #000000
-urxvt*foreground: #999993
+*background: #000000
+*foreground: #999993
 
 ! black
-urxvt.color0  : #2e3436
-urxvt.color8  : #555753
+*color0  : #2e3436
+*color8  : #555753
 ! red
-urxvt.color1  : #cc0000
-urxvt.color9  : #ex2929
+*color1  : #cc0000
+*color9  : #ex2929
 ! green
-urxvt.color2  : #4e9a06
-urxvt.color10 : #8ae234
+*color2  : #4e9a06
+*color10 : #8ae234
 ! yellow
-urxvt.color3  : #c4a000
-urxvt.color11 : #fce94f
+*color3  : #c4a000
+*color11 : #fce94f
 ! blue
-urxvt.color4  : #3465a4
-urxvt.color12 : #729fcf
+*color4  : #3465a4
+*color12 : #729fcf
 ! magenta
-urxvt.color5  : #75507b
-urxvt.color13 : #ad7fa8
+*color5  : #75507b
+*color13 : #ad7fa8
 ! cyan
-urxvt.color6  : #06989a
-urxvt.color14 : #34e2e2
+*color6  : #06989a
+*color14 : #34e2e2
 ! white
-urxvt.color7  : #d3d7cf
-urxvt.color15 : #eeeeec
+*color7  : #d3d7cf
+*color15 : #eeeeec
