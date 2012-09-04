@@ -37,14 +37,12 @@ rxvt-256color)
 esac
 
 # prompt
-red="\[\e[0;32m\]"
-yellow="\[\e[0;34m\]"
-if [ `id -u` -eq "0" ]; then
-	root="${yellow}"
+
+if [[ ${EUID} == 0 ]] ; then
+	PS1='\[\033[01;31m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 else
-	root="${red}"
+	PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
-PS1="\[\e[0;37m\]┌─[${root}\u\[\e[0;37m\]][\[\e[0;96m\]\h\[\e[0;37m\]][\[\e[0;32m\]\w\[\e[0;37m\]]\n\[\e[0;37m\]└──╼ \[\e[0m\]"
 
 # enable color support of ls
 if [ -x /usr/bin/dircolors ]; then
