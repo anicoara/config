@@ -20,7 +20,7 @@ set ls=2
 
 " Word wrap / text width
 set textwidth=80
-set formatoptions+=tc
+set formatoptions+=tcq
 
 " whitespace
 "set list
