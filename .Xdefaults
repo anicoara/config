@@ -12,11 +12,12 @@ Xft.lcdfilter:                  lcddefault
 
 urxvt*geometry:                  100x35
 urxvt*borderLess:                false
-urxvt*font:                      xft:dina:pixelsize=13
+urxvt*font:                      xft:terminus:pixelsize=8
 URxvt*cursorBlink:               true
 urxvt.scrollBar:                 off
 urxvt*termName:                  rxvt-256color
 urxvt.urgentOnBell:              true
+urxvt*saveLines:                 10240
 !urxvt*transparent:               true
 !urxvt*shading:                   15
 
@@ -30,7 +31,7 @@ urxvt.urgentOnBell:              true
 *color8  : #555753
 ! red
 *color1  : #cc0000
-*color9  : #ex2929
+*color9  : #ee2929
 ! green
 *color2  : #4e9a06
 *color10 : #8ae234
