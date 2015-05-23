@@ -25,3 +25,5 @@ autocmd BufWritePre <buffer> :%s/\s\+$//e
 
 " C/C++/Java files
 autocmd FileType c,cpp,cc,java setlocal cindent
+
+set nomodeline
