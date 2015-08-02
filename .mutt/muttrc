@@ -1,0 +1,8 @@
+set realname='Adrian Nicoara'
+set imap_user=adi.nicoara88@gmail.com
+set folder=imaps://imap.gmail.com
+set spoolfile=+INBOX
+unset record
+set smtp_url=smtp://adi.nicoara88@smtp.gmail.com:587
+source /home/anicoara/.mutt/colors
+set editor=/usr/bin/vim
